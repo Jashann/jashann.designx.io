@@ -1,0 +1,49 @@
+@media screen and (max-width: 768px)
+{
+    #section-1
+    {
+        padding: 80px 0;
+    }
+    .container-t,.container-f,.container-u
+    {
+        flex-direction: column;
+    }
+    .container-t > div:nth-child(4)
+    {
+        margin-top: 10px;
+    }
+    .container-f > div
+    {
+        border-bottom: 1px solid #fff;   
+    }
+    #gallery
+    {
+        display: block;
+    }
+/*  Start of Mobile Header */
+    .sm-no-display
+    {
+        display: none;
+    }
+    .sm-display,.sm-block
+    {
+        display: block;
+    }
+    .container-m
+    {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    div#login-signup,#navbar,#searchbar
+    {
+        padding: 0 0 8px 0;
+        display: none;
+    }
+    footer .fab
+    {
+        margin: 15px 15px; 
+    }
+/*  End of Mobile Header */
+}
